@@ -1,0 +1,131 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+  font-family: "Roboto";
+  color: #fff;
+  letter-spacing: 1px;
+  background-color: #252525;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-1 {
+  text-align: center;
+  display: inline-block;
+  padding: 15px 40px;
+  border: 1px solid #fff;
+  cursor: pointer;
+  letter-spacing: 2px;
+  position: relative;
+  overflow: hidden;
+  margin: 0 20px;
+}
+
+.btn-1::before {
+  content: "";
+  position: absolute;
+  height: 150px;
+  width: 50px;
+  background: #fff;
+  left: -55px;
+  top: -40px;
+  transform: rotate(37deg);
+  transition: all .3s;
+  opacity: 0.3;
+}
+
+.btn-1:hover::before {
+  left: 95%;
+}
+
+.btn-2 {
+  text-align: center;
+  display: inline-block;
+  padding: 15px 40px;
+  border: 1px solid #fff;
+  cursor: pointer;
+  letter-spacing: 2px;
+  position: relative;
+  overflow: hidden;
+  margin: 0 20px;
+}
+
+.btn-2::before {
+  content: "";
+  position: absolute;
+  height: 11px;
+  width: 100%;
+  background: #fff;
+  left: 0;
+  top: 0;
+  transition: all .3s;
+  opacity: 0.3;
+}
+
+.btn-2:hover::before {
+  top: 77%;
+}
+
+.btn-3 {
+  text-align: center;
+  display: inline-block;
+  padding: 15px 40px;
+  border: 1px solid #fff;
+  cursor: pointer;
+  letter-spacing: 2px;
+  position: relative;
+  overflow: hidden;
+  margin: 0 20px;
+}
+
+.btn-3::before {
+  content: "";
+  position: absolute;
+  height: 11px;
+  width: 100%;
+  background: #fff;
+  left: 0;
+  bottom: 0;
+  transition: all .3s;
+  opacity: 0.3;
+}
+
+.btn-3:hover::before {
+  bottom: 80%;
+}
+
+.btn-4 {
+  text-align: center;
+  display: inline-block;
+  padding: 15px 40px;
+  border: 1px solid #fff;
+  cursor: pointer;
+  letter-spacing: 2px;
+  position: relative;
+  overflow: hidden;
+  margin: 0 20px;
+}
+
+.btn-4::before {
+  content: "";
+  position: absolute;
+  height: 150px;
+  width: 50px;
+  background: #fff;
+  right: -40px;
+  top: -40px;
+  transform: rotate(37deg);
+  transition: all .3s;
+  opacity: 0.3;
+}
+
+.btn-4:hover::before {
+  right: 105%;
+}
